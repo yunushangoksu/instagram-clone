@@ -1,0 +1,35 @@
+.navbarWrapper {
+  display: flex;
+  flex-flow: column;
+  width: 311px;
+  height: 100vh;
+  border-right: solid #262626 1px;
+  padding: 8px 12px 20px 12px;
+}
+
+.navbarLogo {
+  display: flex;
+  align-items: center;
+  height: 92px;
+}
+.navbarProfilePic {
+  border-radius: 50%;
+}
+.navLinks {
+  display: flex;
+  flex-flow: column;
+}
+.navLinks > *{
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.navLinkMore {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-top: auto;
+  gap: 16px;
+  padding: 12px;
+}

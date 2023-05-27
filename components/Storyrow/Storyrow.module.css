@@ -1,0 +1,12 @@
+.storyRow {
+  padding: 16px 0 16px 0;
+  margin: 30px 0 0 0;
+}
+
+.singleStory {
+  height: 122px;
+}
+
+.storyProfilePic {
+  border-radius: 50%;
+}
