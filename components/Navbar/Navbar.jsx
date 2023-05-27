@@ -16,7 +16,7 @@ function Navbar() {
       </div>
 
   <div className={styles.navLinks}>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/home.svg'
                 width={24}
                 height={24}
@@ -24,43 +24,43 @@ function Navbar() {
     />
     Ana Sayfa
     </div>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/lens.svg'
                 width={24}
                 height={24}
                 alt='Search'
     />Ara</div>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/compass.svg'
                 width={24}
                 height={24}
                 alt='Explore'
     />Keşfet</div>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/reels.svg'
                 width={24}
                 height={24}
                 alt='Reels'
     />Reels</div>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/messenger.svg'
                 width={24}
                 height={24}
                 alt='Messages'
     />Mesajlar</div>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/like.svg'
                 width={24}
                 height={24}
                 alt='Notifications'
     />Bildirimler</div>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/postmore.svg'
                 width={24}
                 height={24}
                 alt='Create Post'
     />Oluştur</div>
-    <div><Image 
+    <div className={styles.navLink}><Image 
                 src='/profile.jpg'
                 width={24}
                 height={24}

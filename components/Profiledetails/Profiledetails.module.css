@@ -1,3 +1,95 @@
 .Profilewrapper {
+  display: flex;
+  flex-direction: column;
   padding: 30px 0 0 0;
+  margin-right: 30px;
+  width: 319px;
+  height: 550px;
+  gap: 15px;
+}
+.TopRow {
+  display: flex;
+  flex-direction: row;
+  margin: 16px 0 0 0;
+}
+.AccountRow {
+  display: flex;
+  flex-direction: row;
+}
+.TopRow2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ProfilePic {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.SwapAccount {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #0095F6;
+}
+.ProfileName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+}
+.Name {
+  color: #A8A8A8;
+  font-weight: 400;
+}
+.OtherFollowers {
+  color: #A8A8A8;
+  font-weight: 400;
+  font-size: 12px;
+}
+.RecommendedForYou {
+  color: #A8A8A8;
+  font-size: 14px;
+}
+.ShowAll {
+  font-size: 12px;
+}
+.RecommendedRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.RecommendedProfiles {
+  display: flex;
+  flex-direction: column;
+}
+.RecommendedProfilePic {
+
+}
+.Footer , .Footer a {
+  display: inline-block;
+  flex-wrap: wrap;
+  color: #737373;
+  text-decoration: none;
+  font-size: 12px;
+}
+.Footer a::after:hover {
+  text-decoration: none;
+
+}
+.Footer a:hover {
+  text-decoration: underline;
+}
+.Footer a::after {
+  content: '\00B7';
+  display: inline-block;
+  margin: 0 3px 0 3px;
+}
+.Footer a:last-child::after {
+  content: none;
+}
+.Watermark {
+  color: #737373;
+font-size: 12px;
+text-transform: uppercase;
 }

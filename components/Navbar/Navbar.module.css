@@ -1,7 +1,7 @@
 .navbarWrapper {
   display: flex;
   flex-flow: column;
-  width: 311px;
+  width: 336px;
   height: 100vh;
   border-right: solid #262626 1px;
   padding: 8px 12px 20px 12px;
@@ -11,6 +11,8 @@
   display: flex;
   align-items: center;
   height: 92px;
+  width: 100%;
+  padding: 25px 12px 16px 12px;
 }
 .navbarProfilePic {
   border-radius: 50%;
@@ -18,12 +20,16 @@
 .navLinks {
   display: flex;
   flex-flow: column;
+  font-weight: 300;
 }
-.navLinks > *{
+.navLinks > * {
   padding: 12px;
   display: flex;
   align-items: center;
   gap: 16px;
+}
+.navLink {
+  height: 56px;
 }
 .navLinkMore {
   display: flex;

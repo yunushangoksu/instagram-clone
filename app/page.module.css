@@ -3,3 +3,10 @@
   flex-flow: row;
   justify-content: space-between;
 }
+.FeedWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4px;
+  margin: 0 277.500px 0 277.500px;
+  box-sizing: border-box;
+}
