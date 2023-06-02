@@ -2,3 +2,8 @@
   width: 630px;
   margin-right: 64px;
 }
+@media only screen and (max-width: 1150px) {
+  .Feedwrapper {
+    margin-right: 0;
+  }
+}
