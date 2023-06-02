@@ -1,0 +1,13 @@
+.navbarWrapper {
+  width: 75px;
+}
+.navbarText,
+.logo {
+  display: none;
+}
+.logoShrinked {
+  display: block;
+}
+.navbarLogo {
+  justify-content: center;
+}

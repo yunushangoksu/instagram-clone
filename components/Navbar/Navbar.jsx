@@ -41,7 +41,9 @@ function Navbar() {
         </div>
         <div className={styles.navLink}>
           <Image src="/messenger.svg" width={24} height={24} alt="Messages" />
-          <div className={styles.navbarText}>Mesajlar</div>
+          <a href="/messages" className={styles.navbarText}>
+            Mesajlar
+          </a>
         </div>
         <div className={styles.navLink}>
           <Image src="/like.svg" width={24} height={24} alt="Notifications" />
