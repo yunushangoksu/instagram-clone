@@ -1,7 +1,7 @@
 .navbarWrapper {
   display: flex;
   flex-flow: column;
-  width: 336px;
+  width: 17.5vw;
   height: 100vh;
   border-right: solid #262626 1px;
   padding: 8px 12px 20px 12px;
@@ -9,7 +9,30 @@
   position: sticky;
   top: 0;
 }
-
+@media only screen and (max-width: 1400px) {
+  .navbarWrapper {
+    transition: 0.2s;
+    width: 75px;
+  }
+  .navbarText,
+  .logo {
+    display: none;
+  }
+  .logoShrinked {
+    display: block;
+  }
+  .navbarLogo {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .navbarWrapper {
+    transition: 0.2s;
+  }
+  .logoShrinked {
+    display: none;
+  }
+}
 .navbarLogo {
   display: flex;
   align-items: center;

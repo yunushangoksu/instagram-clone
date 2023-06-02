@@ -7,6 +7,13 @@ function Navbar() {
     <div className={styles.navbarWrapper}>
       <div className={styles.navbarLogo}>
         <Image
+          src="/instagram.svg"
+          width={24}
+          height={24}
+          alt="Instagram Logo"
+          className={styles.logoShrinked}
+        />
+        <Image
           src="/Instagram_logo.svg"
           width={109}
           height={39}
@@ -18,31 +25,31 @@ function Navbar() {
       <div className={styles.navLinks}>
         <div className={styles.navLink}>
           <Image src="/home.svg" width={24} height={24} alt="Main Page" />
-          Ana Sayfa
+          <div className={styles.navbarText}>Ana Sayfa</div>
         </div>
         <div className={styles.navLink}>
           <Image src="/lens.svg" width={24} height={24} alt="Search" />
-          Ara
+          <div className={styles.navbarText}>Ara</div>
         </div>
         <div className={styles.navLink}>
           <Image src="/compass.svg" width={24} height={24} alt="Explore" />
-          Keşfet
+          <div className={styles.navbarText}>Keşfet</div>
         </div>
         <div className={styles.navLink}>
           <Image src="/reels.svg" width={24} height={24} alt="Reels" />
-          Reels
+          <div className={styles.navbarText}>Reels</div>
         </div>
         <div className={styles.navLink}>
           <Image src="/messenger.svg" width={24} height={24} alt="Messages" />
-          Mesajlar
+          <div className={styles.navbarText}>Mesajlar</div>
         </div>
         <div className={styles.navLink}>
           <Image src="/like.svg" width={24} height={24} alt="Notifications" />
-          Bildirimler
+          <div className={styles.navbarText}>Bildirimler</div>
         </div>
         <div className={styles.navLink}>
           <Image src="/postmore.svg" width={24} height={24} alt="Create Post" />
-          Oluştur
+          <div className={styles.navbarText}>Oluştur</div>
         </div>
         <div className={styles.navLink}>
           <Image
@@ -52,13 +59,13 @@ function Navbar() {
             alt="Profile"
             className={styles.navbarProfilePic}
           />
-          Profil
+          <div className={styles.navbarText}>Profil</div>
         </div>
       </div>
 
       <div className={styles.navLinkMore}>
         <Image src="/more.svg" width={24} height={24} alt="Profile" />
-        Daha fazla
+        <div className={styles.navbarText}>Daha fazla</div>
       </div>
     </div>
   );
