@@ -5,7 +5,7 @@
   margin-right: 30px;
   width: 319px;
   height: 550px;
-  gap: 15px;
+  gap: 18px;
 }
 .TopRow {
   display: flex;
@@ -15,12 +15,17 @@
 .AccountRow {
   display: flex;
   flex-direction: row;
+  padding-left: 2px;
 }
 .TopRow2 {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.AccountProfilePic {
+  border-radius: 50%;
+  margin-right: 18px;
 }
 .ProfilePic {
   border-radius: 50%;
@@ -70,8 +75,10 @@
   display: inline-block;
   flex-wrap: wrap;
   color: #737373;
+  padding-top: 10px;
   text-decoration: none;
   font-size: 12px;
+  line-height: 8px;
 }
 .Footer a::after:hover {
   text-decoration: none;

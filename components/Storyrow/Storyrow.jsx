@@ -1,66 +1,66 @@
-import styles from './Storyrow.module.css'
-import Image from 'next/image'
-import React from 'react'
+import styles from "./Storyrow.module.css";
+import Image from "next/image";
+import React from "react";
 
 function Storyrow() {
   return (
     <div className={styles.storyrow}>
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
       </div>
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
       </div>
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
       </div>
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
       </div>
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
       </div>
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
@@ -68,10 +68,10 @@ function Storyrow() {
 
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
@@ -79,17 +79,16 @@ function Storyrow() {
 
       <div className={styles.singleStory}>
         <Image
-          src='/profile.jpg'
+          src="https://picsum.photos/200"
           width={56}
           height={56}
-          alt='Profile Picture'
+          alt="Profile Picture"
           className={styles.storyProfilePic}
         />
         <span className={styles.storyName}>yunushangoksu</span>
       </div>
-
     </div>
-  )
+  );
 }
 
-export default Storyrow
+export default Storyrow;
