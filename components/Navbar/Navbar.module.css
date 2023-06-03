@@ -45,16 +45,16 @@
   display: flex;
   flex-flow: column;
   font-weight: 300;
-  gap: 8px;
+  gap: 12px;
 }
 .navLinks > * {
-  padding: 12px;
+  padding: 0 12px 0 12px;
   display: flex;
   align-items: center;
   gap: 16px;
 }
 .navLink {
-  height: 56px;
+  height: 46px;
   border-radius: 8px;
 }
 .navLink:hover {
