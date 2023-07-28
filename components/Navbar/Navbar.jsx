@@ -6,13 +6,15 @@ function Navbar() {
   return (
     <div className={styles.navbarWrapper}>
       <div className={styles.navbarLogo}>
-        <Image
-          src="/instagram.svg"
-          width={24}
-          height={24}
-          alt="Instagram Logo"
-          className={styles.logoShrinked}
-        />
+        <a href="/" className={styles.logoLink}>
+          <Image
+            src="/instagram.svg"
+            width={24}
+            height={24}
+            alt="Instagram Logo"
+            className={styles.logoShrinked}
+          />
+        </a>
         <Image
           src="/Instagram_logo.svg"
           width={109}
