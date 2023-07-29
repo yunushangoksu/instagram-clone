@@ -59,6 +59,13 @@ function Postcard() {
           className={styles.PostButtons}
         />
       </div>
+      <p className={styles.likeCount}>2.719 beğenme</p>
+      <div className={styles.postDescription}>
+        <p className={styles.postOwner}>trashcanpaul</p>
+        <p className={styles.postDescriptionText}>
+          Now I am become alcoholic, drinker of beers
+        </p>
+      </div>
     </div>
   );
 }
