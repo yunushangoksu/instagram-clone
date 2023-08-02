@@ -1,3 +1,3 @@
-Resopnsive Instagram clone.
+Resopnsive Instagram design clone.
 
-[Live Preview](https://instagram-clone-beryl-seven.vercel.app/)
+[Live Demo 👈](https://instagram-clone-beryl-seven.vercel.app/)
